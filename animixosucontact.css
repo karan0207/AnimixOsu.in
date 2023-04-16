@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Poppins', sans-serif;
+		}
+
+		body {
+			background: linear-gradient(90deg, #0e3959 0%, #0e3959 30%, #03a9f5 30%, #03a9f5 100%);
+		}
+
+		.box {
+            background-color: white;
+            height: 500px;
+            width: 700px;
+            position: absolute;
+            right: 4%;
+            top: 10%;
+            display: flex;
+            flex-direction: column;
+            background-color: #03a9f5;
+        }
+        .box h1 {
+            display: flex;
+            width: 60%;
+            justify-content: center;
+            align-items: center;
+        }
+        .box input {
+            display: inline-block;
+            margin: 20px 10px;
+            width: 60%;
+            height: 40px;
+        }
+        .box textarea {
+            margin: 20px 10px;
+            width: 60%;
+            height: 80px;
+        }
+        .title {
+            box-sizing: border-box;
+        }
+        .title .img {
+            position: relative;
+            width: 500px;
+            height: 500px;
+  top: 40%;
+        }
+        .title img {
+  height: 500px;
+  width: 400px;
+  position: absolute;
+  top: 15%;
+  
+        }
+        .box .submit {
+            display: inline-block;
+            width: max-content;
+            font-size: 17px;
+            position: relative;
+            left: 160px;
+            padding: 3px 5px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .box .submit:hover {
+            background-color: rgb(186, 182, 182);
+        }
+ 
+ .logo {
+    font-size: 2rem;
+    line-height: 3.8rem;
+    color: white;
+    text-decoration: none;
+    padding: 0 5px;
+   position: absolute;
+   left: 50px;
+
+
+}
+
+ .logo span {
+    font-weight: bold;
+}
+
+.logo i {
+    color: red;
+}
+
+@media screen and (max-width:1200px) {
+    body {
+        /* background: url(/images/zoropng.png); */
+        background: none;
+    }
+    .box {
+        position: unset;
+        padding-top: 27%;
+        width: 100vw;
+        height: 100vh;
+       
+    }
+    .box input {
+        width: 95%;
+        font-size: 20px;
+        height: 50px;
+    }
+    .box textarea {
+        width: 95%;
+        height: 100px;
+        font-size: 20px;
+    }
+    .box h1 {
+        font-size: 26px;
+        display: flex;
+        justify-content: center;
+        width: 95%;
+        margin: 3% 0;
+    }
+    .title .img {
+        display: none;
+    }
+    .title .logo {
+        margin-bottom: 40px;
+    }
+    .box .submit {
+        font-size: 20px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        left: 37%;
+    }
+    .title .logo {
+        width: 72%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-bottom: 10%;
+    }
+}
+@media screen and (min-width:419px) and (max-width:790px) {
+    .box {
+        position: unset;
+        padding-top: 19%;
+        width: 100vw;
+        height: 100vh;
+       
+    }
+    .box .submit {
+        font-size: 20px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        left: 40%;
+    }
+    .box h1 {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        width: 95%;
+    }
+}
+@media screen and (min-width:790px) and (max-width:1200px) {
+    .box {
+        position: unset;
+        padding-top: 15%;
+        width: 100vw;
+        height: 100vh;
+       
+    }
+    .box .submit {
+        font-size: 20px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        left: 40%;
+        padding: 5px 10px ;
+    }
+    .box h1 {
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        width: 95%;
+    }
+    .box input {
+        width: 95%;
+        font-size: 20px;
+        height: 2rempx;
+    }
+    .title .logo {
+        width: 72%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        left: 130px;
+    }
+}
+
+/* @media screen and (min-width:2200px) {
+    .box {
+        background-color: white;
+        height: 180rem;
+        width: 160rem;
+        position: absolute;
+        right: 4%;
+        top: 10%;
+        display: flex;
+        flex-direction: column;
+        background-color: #03a9f5;
+    }
+
+    .box h1 {
+        display: flex;
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+        font-size: 6rem;
+    }
+
+    .box input {
+        display: inline-block;
+        margin: 20px 10px;
+        width: 60%;
+        height: 8rem;
+        font-size: 3rem;
+        padding: 0 2rem;
+    }
+
+    .box textarea {
+        margin: 20px 10px;
+        width: 60%;
+        height: 15rem;
+        font-size: 3.4rem;
+        padding: 0 2rem;
+    }
+
+    .title {
+        box-sizing: border-box;
+    }
+
+    .title .img {
+        position: relative;
+        width: 1800px;
+        height: 1300px;
+        top: 40%;
+    }
+
+    .title img {
+        height: 1800px;
+        width: 1300px;
+        position: absolute;
+        top: 15%;
+
+    }
+
+    .box .submit {
+        display: inline-block;
+        width: max-content;
+        font-size: 4rem;
+        position: relative;
+        left: 30rem;
+        padding: 3px 5px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .box .submit:hover {
+        background-color: rgb(186, 182, 182);
+    }
+
+    .logo {
+        font-size: 7rem;
+        line-height: 4rem;
+        color: white;
+        text-decoration: none;
+        padding: 0 5px;
+        position: absolute;
+        left: 50px;
+
+
+    }
+
+    .logo span {
+        font-weight: bold;
+    }
+
+    .logo i {
+        color: red;
+    } */
+
+@media screen and (min-width:2000px) {
+    html{
+        font-size: 70%;
+        
+    }
+    .box {
+        background-color: white;
+        height: 2000px;
+        width: 1400px;
+        position: absolute;
+        right: 0%;
+        top: 10%;
+        display: flex;
+        flex-direction: column;
+        background-color: #03a9f5;
+    }
+    .title .img {
+        position: relative;
+        width: 60rem;
+        height: 70rem;
+        top: 40%;
+    }
+
+    .title img {
+        width: 60rem;
+        height: 70rem;
+        position: absolute;
+        top: 25%;
+
+    }
+    .box h1 {
+        display: flex;
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+        font-size: 6rem;
+    }
+    .logo {
+        font-size: 7rem;
+        line-height: 4rem;
+        color: white;
+        text-decoration: none;
+        padding: 0 5px;
+        position: absolute;
+        left: 50px;
+
+
+    }
+    .box h1 {
+        display: flex;
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+        font-size: 6rem;
+    }
+
+    .box input {
+        display: inline-block;
+        margin: 20px 30px;
+        width: 60%;
+        height: 8rem;
+        font-size: 3rem;
+        padding: 0 2rem;
+    }
+
+    .box textarea {
+        margin: 20px 30px;
+        width: 60%;
+        height: 15rem;
+        font-size: 3.4rem;
+        padding: 0 2rem;
+    }
+    .box .submit {
+        display: inline-block;
+        width: max-content;
+        font-size: 4rem;
+        position: relative;
+        left: 30rem;
+        padding: 3px 5px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+}
