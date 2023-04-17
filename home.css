@@ -407,7 +407,7 @@ footer {
 }
 
  ul li a .fab {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     color: #fec53a;
     margin-right: 15px;
 }
@@ -577,6 +577,6 @@ top: 1300px;
                  0px 0px 200px #0072ff;
                  animation: animate 3s linear infinite;
 }
-.instalink {
+.footer-bottom p a , .instalink {
     color: rgb(187, 37, 187);
 }
