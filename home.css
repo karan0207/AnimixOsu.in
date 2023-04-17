@@ -577,3 +577,6 @@ top: 1300px;
                  0px 0px 200px #0072ff;
                  animation: animate 3s linear infinite;
 }
+.instalink {
+    color: #fec53a;
+}
