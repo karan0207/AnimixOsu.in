@@ -100,8 +100,10 @@ let swiper5 = new Swiper(".upcoming-slider", {
  // Get the button element by its ID
  var button = document.getElementById("heart");
 
+
  // Set a variable to keep track of whether the button has been clicked before
- var clicked = true;
+var clicked = true;
+ 
 
  // Add an event listener for the click event
  button.addEventListener("click", function() {
