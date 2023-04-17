@@ -878,11 +878,7 @@ margin-top: -20px;
 }
 
 /* ............................... */
- .contain .img2 {
-  background: url(/images/narsas.jpg);
-  background-size: cover;
-  background-position: center;
-}
+
 .arccontent p {
   color: white;
   font-size:3rem;
