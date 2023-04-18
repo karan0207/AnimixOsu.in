@@ -580,3 +580,37 @@ top: 1300px;
 .footer-bottom p a , .instalink {
     color: rgb(187, 37, 187);
 }
+.logo2 h1 , .footer-logo {
+    width: max-content;
+}
+.logo2 h1 , .footer-logo h1 {
+   font-size: 3.8rem;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   color: #0e3742;
+   -webkit-box-reflect: below 1px linear-gradient(transparent,#000);
+   animation: blink 10s linear infinite;
+}
+.logo2 i, .footer-logo i {
+    animation: blink2 10s linear infinite;
+}
+@keyframes blink {
+    0%,10%,20%,30%,40%,50%,60%,70%,80%,90%,100%{
+color: #0e3742;
+
+    }
+    5%,15%,25%,35%,45%,55%,65%,75%,85%,95%{
+color: #fff;
+text-shadow: 0 0 2px #fec53a, 0 0 4px #fec53a, 0 0 8px #fec53a, 0 0 16px #fec53a, 0 0 32px #fec53a
+    }
+}
+@keyframes blink2 {
+    0%,10%,20%,30%,40%,50%,60%,70%,80%,90%,100% {
+color:#fff ;
+
+    }
+    5%,15%,25%,35%,45%,55%,65%,75%,85%,95% {
+color: #0e3742;
+text-shadow: 0 0 2px #fec53a, 0 0 4px #fec53a, 0 0 8px #fec53a, 0 0 16px #fec53a, 0 0 32px #fec53a
+    }
+}
