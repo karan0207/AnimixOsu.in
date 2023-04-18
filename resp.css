@@ -1047,3 +1047,34 @@ footer {
 }
 
 }
+@media screen (max-width:320px) {
+    .header .navbar a {
+        font-size: 1.6rem;
+        text-decoration: none;
+        color: white;
+        padding: 5px;
+        margin-left: 2rem;
+    }
+
+    .header .icons i {
+        cursor: pointer;
+        text-align: center;
+        height: 2.5rem;
+        width: 2.5rem;
+        line-height: 2.5rem;
+        margin-left: 0.5rem;
+        font-size: 2rem;
+        border-radius: 50%;
+        color: white;
+        background-color: red;
+        padding: 0 4px;
+    }
+
+    .header .logo {
+        font-size: 2.8rem;
+        line-height: 2.8rem;
+        color: white;
+        text-decoration: none;
+        padding: 0 5px;
+    }
+}
